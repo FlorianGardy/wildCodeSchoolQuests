@@ -1,0 +1,68 @@
+/* Fellows section */
+
+.FellowBlockAlive,.FellowBlockDead {
+    position: relative;
+    text-align: center;
+}
+
+.FellowBlockImg {
+    -webkit-filter: opacity(30%);
+    filter: opacity(30%);
+    width: 100%;
+    width: 100%;
+}
+
+.FellowBlockImgDead {
+    width: 100%;
+    width: 100%;
+}
+
+.FellowBlockAlive:hover .FellowBlockReward {
+    display: none;
+}
+
+.FellowBlockAlive:hover .FellowBlockName {
+    top: 95%;
+}
+
+.FellowBlockAlive:hover .FellowBlockImg {
+    filter: opacity(100%);
+}
+
+.FellowBlockReward {
+    display: block;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+    top: 15px;
+    left: 15px;
+    width: calc(18rem - 32px);
+    font-size: 1em;
+    background: white;
+}
+
+.FellowBlockName{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: white;
+}
+
+.FellowBlockIsDead{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: black;
+}
+
+.ColorOrange{
+    color: orange;
+}
